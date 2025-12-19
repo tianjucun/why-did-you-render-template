@@ -1,0 +1,28 @@
+{
+  "name": "why-did-you-render-template",
+  "version": "1.0.0",
+  "description": "A comprehensive template and examples for why-did-you-render integration across different React versions and build tools",
+  "private": true,
+  "scripts": {
+    "dev:react18-vite": "pnpm --filter react18-vite dev",
+    "dev:react18-webpack": "pnpm --filter react18-webpack dev",
+    "build:all": "pnpm -r build"
+  },
+  "dependencies": {
+    "@welldone-software/why-did-you-render": "^8.0.0"
+  },
+  "keywords": [
+    "react",
+    "why-did-you-render",
+    "performance",
+    "debugging",
+    "template",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

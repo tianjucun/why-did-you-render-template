@@ -1,0 +1,11 @@
+{
+  "name": "@wdyr-template/shared",
+  "version": "1.0.0",
+  "description": "Shared components and utilities for why-did-you-render examples",
+  "main": "src/index.js",
+  "scripts": {},
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
