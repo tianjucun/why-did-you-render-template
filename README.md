@@ -13,6 +13,11 @@
 - ✅ **React 18 + Vite/Webpack** - 最常用的技术栈
 - ✅ **开箱即用** - 无需阅读文档，直接套用配置
 
+## 🌐 在线演示
+
+- **Vite 项目**: [https://tianjucun.github.io/why-did-you-render-template](https://tianjucun.github.io/why-did-you-render-template)
+- **Webpack 项目**: [https://tianjucun.github.io/why-did-you-render-template/webpack/](https://tianjucun.github.io/why-did-you-render-template/webpack/)
+
 ## 🚀 快速开始
 
 ### 安装依赖
