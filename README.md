@@ -51,6 +51,7 @@ why-did-you-render-template/
 
 - **[快速开始](./docs/QUICK_START.md)** - 3 步接入，直接套用
 - **[配置说明](./docs/CONFIG.md)** - 企业最佳实践配置和使用场景
+- **[部署指南](./docs/DEPLOY.md)** - GitHub Pages 部署说明，在线访问编译后的项目
 
 ## ⚠️ 重要提示
 

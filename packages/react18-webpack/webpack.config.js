@@ -3,7 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = (env, argv) => {
-  const isDevelopment = argv.mode === 'development';
+  // 支持通过环境变量强制使用 development 模式
+  const isDevelopment = 
+    argv.mode === 'development' || 
+    process.env.NODE_ENV === 'development' ||
+    process.env.BUILD_MODE === 'development';
 
   return {
     entry: './src/index.jsx',
@@ -14,6 +18,8 @@ module.exports = (env, argv) => {
     },
     // 启用 Source Map，让控制台中的代码位置可点击
     devtool: isDevelopment ? 'eval-source-map' : 'source-map',
+    // 开发模式构建时，不压缩代码
+    mode: isDevelopment ? 'development' : 'production',
     resolve: {
       extensions: ['.jsx', '.js'],
     },

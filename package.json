@@ -6,7 +6,8 @@
   "scripts": {
     "dev:react18-vite": "pnpm --filter react18-vite dev",
     "dev:react18-webpack": "pnpm --filter react18-webpack dev",
-    "build:all": "pnpm -r build"
+    "build:all": "pnpm -r build",
+    "build:dev": "pnpm --filter react18-vite build:dev && pnpm --filter react18-webpack build:dev"
   },
   "dependencies": {
     "@welldone-software/why-did-you-render": "^8.0.0"

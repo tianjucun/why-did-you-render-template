@@ -1,0 +1,3 @@
+# 告诉 GitHub Pages 不要使用 Jekyll 处理
+# 这样可以正确部署 React SPA 应用
+

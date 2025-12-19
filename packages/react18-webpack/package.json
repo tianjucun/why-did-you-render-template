@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "build:dev": "NODE_ENV=development webpack --mode development"
   },
   "dependencies": {
     "react": "^18.2.0",
